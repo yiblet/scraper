@@ -146,6 +146,9 @@ pub use crate::element_ref::ElementRef;
 pub use crate::html::Html;
 pub use crate::node::Node;
 pub use crate::selector::Selector;
+pub use ego_tree;
+pub use html5ever_lib as html5ever;
+pub use html5ever_lib::ns;
 
 pub mod element_ref;
 pub mod html;
