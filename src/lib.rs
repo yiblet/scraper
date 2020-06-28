@@ -136,10 +136,12 @@
 )]
 
 #[macro_use]
-extern crate html5ever;
+pub extern crate html5ever as html5ever_lib;
 #[macro_use]
 extern crate matches;
 
+pub use html5ever_lib as html5ever;
+pub use html5ever_lib::ns;
 pub use crate::element_ref::ElementRef;
 pub use crate::html::Html;
 pub use crate::node::Node;
